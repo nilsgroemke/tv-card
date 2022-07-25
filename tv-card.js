@@ -151,9 +151,8 @@ class TVCardServices extends LitElement {
     sendKey(key) {
         let entity_id = this._config.entity;
 
-        this._hass.callService("media_player", "play_media", {
-            media_content_id: key,
-            media_content_type: "send_key",
+        this._hass.callService("androidtv", "adb_command", {
+            command: key,
         }, { entity_id: entity_id });
     }
 
