@@ -26,9 +26,10 @@ const keys = {
 };
 
 const sources = {
+    "youtube": {"source": "YouTube (FireTV)", "icon": "mdi:youtube"},
+    "twitch": {"source": "Twitch (FireTV)", "icon": "mdi:twitch"},
     "netflix": {"source": "Netflix", "icon": "mdi:netflix"},
-    "spotify": {"source": "Spotify", "icon": "mdi:spotify"},
-    "youtube": {"source": "YouTube", "icon": "mdi:youtube"},
+    "spotify": {"source": "Disney+", "icon": "mdi:plus"},
 };
 
 var fireEvent = function(node, type, detail, options) {
