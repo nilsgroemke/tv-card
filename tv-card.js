@@ -14,7 +14,7 @@ const keys = {
     "home": {"key": "HOME", "icon": "mdi:home"},
     "channel_up": {"key": "CHUP", "icon": "mdi:arrow-up"},
     "channel_down": {"key": "CHDOWN", "icon": "mdi:arrow-down"},
-    "up": {"key": "sendevent /dev/input/event4 4 4 458834 && sendevent /dev/input/event4 1 103 1 && sendevent /dev/input/event4 0 0 0 && sendevent /dev/input/event4 4 4 458834 && sendevent /dev/input/event4 1 103 0", "icon": "mdi:chevron-up"},
+    "up": {"key": "UP", "icon": "mdi:chevron-up"},
     "left": {"key": "LEFT", "icon": "mdi:chevron-left"},
     "enter": {"key": "ENTER", "icon": "mdi:checkbox-blank-circle"},
     "right": {"key": "RIGHT", "icon": "mdi:chevron-right"},
