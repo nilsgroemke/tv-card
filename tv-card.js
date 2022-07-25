@@ -234,7 +234,7 @@ class TVCardServices extends LitElement {
             this.sendKey(key);
         } else {
             // sliding vertically
-            let key = diffY > 0 ? "sendevent /dev/input/event4 4 4 458834 && sendevent /dev/input/event4 1 103 1 && sendevent /dev/input/event4 0 0 0 && sendevent /dev/input/event4 4 4 458834 && sendevent /dev/input/event4 1 103 0" : "sendevent /dev/input/event4 4 4 458833 && sendevent /dev/input/event4 1 108 1 && sendevent /dev/input/event4 0 0 0 && sendevent /dev/input/event4 4 4 458833 && sendevent /dev/input/event4 1 108 0 && sendevent /dev/input/event4 0 0 0";
+            let key = diffY > 0 ? "sendevent /dev/input/event4 4 4 458834 && sendevent /dev/input/event4 1 103 1 && sendevent /dev/input/event4 0 0 0 && sendevent /dev/input/event4 4 4 458834 && sendevent /dev/input/event4 1 103 0 && sendevent /dev/input/event4 0 0 0" : "sendevent /dev/input/event4 4 4 458833 && sendevent /dev/input/event4 1 108 1 && sendevent /dev/input/event4 0 0 0 && sendevent /dev/input/event4 4 4 458833 && sendevent /dev/input/event4 1 108 0 && sendevent /dev/input/event4 0 0 0";
             this.holdaction = key;
             this.sendKey(key);
         }
